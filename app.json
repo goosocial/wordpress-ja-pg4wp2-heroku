@@ -1,14 +1,14 @@
 {
-    "name": "wordpress-ja-pg4wp2-heroku",
-    "description": "WordPress-4.9.6-ja pg4wp2 PostgreSQL on Heroku",
+    "name": "wordpress-tw-pg4wp2-heroku",
+    "description": "WordPress-4.9.6-tw pg4wp2 PostgreSQL on Heroku",
     "keywords": [
         "Blog",
         "PHP",
         "WordPress",
         "PostgreSQL"
     ],
-    "website": "https://github.com/macminiosx/wordpress-ja-pg4wp2-heroku",
-    "repository": "https://github.com/macminiosx/wordpress-ja-pg4wp2-heroku",
+    "website": "https://github.com/goosocial/wordpress-tw-pg4wp2-heroku",
+    "repository": "https://github.com/goosocial/wordpress-tw-pg4wp2-heroku",
     "success_url": "/",
     "env": {
         "AUTH_KEY": {
@@ -56,7 +56,7 @@
         "TZ": {
             "description": "Your Time Zone.",
             "required": false,
-            "value": "Asia/Tokyo"
+            "value": "Asia/Taiwan"
         },
         "ADMINAUTH": {
             "description": "Login Basic authentication(ex. USERNAME:CRYPT PASSWORD).",
